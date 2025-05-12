@@ -2,7 +2,7 @@
 include(${CMAKE_SOURCE_DIR}/cmake/Dependency.cmake)
 
 file(GLOB_RECURSE SRC_FILES "*.cpp")
-file(GLOB_RECURSE HEADER_FILES "../include/*.h")
+file(GLOB_RECURSE HEADER_FILES "*.h")
 
 add_executable(ft_minecraft ${SRC_FILES} ${HEADER_FILES})
 
