@@ -17,6 +17,7 @@ public:
     void OnEvent();
 
     static App &Get();
+    void OnClose();
 
 private:
     void OnWindowClose();
